@@ -10,7 +10,7 @@ Zero-cost abstractions with direct state management, minimal allocations, and pr
 ## Usage
 
 ```lua
-local Promise = require(path.to.Promise)
+local Promise = require(path.to.Eternity)
 
 Promise.new(function(resolve, reject)
     task.delay(1, resolve, "done")
